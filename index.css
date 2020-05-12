@@ -1,0 +1,48 @@
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.tabsbox {
+  border: 1px dashed #f00;
+  width: 800px;
+  height: 400px;
+  margin: 10px auto;
+}
+.firstnav {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  border-bottom: 1px dashed #f00;
+  align-items: center;
+  padding-right: 10px;
+}
+.fa-times {
+    color: #f00;
+}
+.fa-plus {
+    color: green;
+}
+ul {
+  display: flex;
+}
+li {
+  width: 60px;
+  display: flex;
+  border-right: 1px dashed #f00;
+  padding: 0 10px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+li.active {
+  background: gold;
+  color: #fff;
+}
+.tabscon section {
+    display: none;
+}
+.tabscon .active {
+    display: block;
+}
