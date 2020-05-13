@@ -4,3 +4,4 @@ class Tab {
   delete() {}
   edit() {}
 }
+new Tab()
