@@ -8,7 +8,7 @@ li {
   border: 1px dashed #f00;
   width: 800px;
   height: 400px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 .firstnav {
   display: flex;
@@ -19,10 +19,10 @@ li {
   padding-right: 10px;
 }
 .fa-times {
-    color: #f00;
+  color: #f00;
 }
 .fa-plus {
-    color: green;
+  color: green;
 }
 ul {
   display: flex;
@@ -41,8 +41,11 @@ li.active {
   color: green;
 }
 .tabscon section {
-    display: none;
+  display: none;
 }
 .tabscon .active {
-    display: block;
+  display: block;
+}
+input {
+  width: 60px;
 }
